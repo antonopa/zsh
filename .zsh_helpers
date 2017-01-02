@@ -1,0 +1,6 @@
+fina() {
+  if [ $# -ne 2 ] ; then
+    echo ${1}
+    find . -name \*${1}\*
+  fi
+}
