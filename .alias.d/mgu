@@ -1,0 +1,7 @@
+alias xlap='xfreerdp /u:SysTeam /v:winlap /s:1600x1200 /p:eeRae8ae'
+alias getlatesthu='curl -k --netrc https://ulmbci018.de-cci.bmwgroup.net:8081/view/All/job/BciStorage/ws/Releases/MGU/_mostRecent/artifacts/mgu-16w46.5-1-1-mgu-high-images-hu.tar.gz -O'
+
+alias toFred='ssh -o ConnectTimeout=5 fred'
+alias rFred='ssh fred nsm_control --requestRestart 7'
+
+# vi:syntax=zsh

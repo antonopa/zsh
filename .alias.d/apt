@@ -1,0 +1,5 @@
+alias saar='sudo apt autoremove'
+alias sau='sudo apt-get update'
+alias saug='sudo apt-get upgrade --with-new-pkgs'
+
+# vi:syntax=zsh

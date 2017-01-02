@@ -1,0 +1,4 @@
+alias catini='pygmentize -l ini'
+alias pyg='pygmentize'
+
+# vi:syntax=zsh

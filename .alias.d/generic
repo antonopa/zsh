@@ -1,0 +1,11 @@
+alias cd='pushd'
+alias mystack='dirs -pv'
+alias popall='dirs -c'
+alias l='ls'
+alias .2='cd ../../'
+alias .3='cd ../../../'
+alias .4='cd ../../../../'
+alias grep='grep --colour=always'
+alias h="cd ~"
+
+# vi:syntax=zsh
