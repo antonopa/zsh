@@ -20,7 +20,7 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git common-aliases sudo systemd taskwarrior vi-mode wd)
+plugins=(git common-aliases sudo systemd taskwarrior vi-mode wd debian)
 
 [ -f ${ZSH}/oh-my-zsh.sh ] && source $ZSH/oh-my-zsh.sh
 
@@ -44,3 +44,9 @@ fi
 
 # Start X if we are in a tty and X is not running
 [[ -z "$DISPLAY" && "$XDG_VTNR" -eq 1 && -z "$SSH_TTY" && -z "$TMUX" ]] && exec startx || [[ 1 ]]
+
+# virtualenvwrapper goodies
+venvwrapper=/usr/share/virtualenvwrapper/virtualenvwrapper.sh
+[ -f $venvwrapper ] && source $venvwrapper
+unalias rm
+
